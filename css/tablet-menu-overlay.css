@@ -1,0 +1,120 @@
+/* screen - tablet-menu-overlay */
+
+.tablet-menu-overlay {
+  align-items: flex-start;
+  display: flex;
+  height: 316px;
+  padding: 0 99px;
+  width: 768px;
+}
+
+#overlay-tablet-menu-overlay {
+  align-items: center;
+  background-color: #ffffff00;
+  justify-content: center;
+}
+
+.tablet-menu-overlay .overlap-group {
+  height: 253px;
+  margin-top: 63px;
+  position: relative;
+  width: 154px;
+}
+
+.tablet-menu-overlay .blog {
+  left: 32px;
+  letter-spacing: 0.11px;
+  line-height: 15px;
+  position: absolute;
+  top: 150px;
+  white-space: nowrap;
+}
+
+.tablet-menu-overlay .support {
+  left: 32px;
+  letter-spacing: 0.11px;
+  line-height: 15px;
+  position: absolute;
+  top: 88px;
+  white-space: nowrap;
+}
+
+.tablet-menu-overlay .log-out {
+  color: var(--blueberry);
+  font-family: var(--font-family-tahoma-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  left: 32px;
+  letter-spacing: 0.11px;
+  line-height: 15px;
+  position: absolute;
+  top: 214px;
+  white-space: nowrap;
+}
+
+.tablet-menu-overlay .discover {
+  left: 32px;
+  letter-spacing: 0.11px;
+  line-height: 15px;
+  position: absolute;
+  top: 24px;
+  white-space: nowrap;
+}
+
+.tablet-menu-overlay .hover {
+  background-color: var(--aqua-pearl);
+  border: 1px solid;
+  border-color: var(--malibu);
+  cursor: pointer;
+  height: 64px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 154px;
+}
+
+.tablet-menu-overlay .hover:hover {
+  opacity: 1;
+}
+
+.tablet-menu-overlay .hover-1 {
+  background-color: var(--aqua-pearl);
+  border: 1px solid;
+  border-color: var(--malibu);
+  cursor: pointer;
+  height: 64px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 63px;
+  transition: all 0.2s ease;
+  width: 154px;
+}
+
+.tablet-menu-overlay .hover-1:hover {
+  opacity: 1;
+}
+
+.tablet-menu-overlay .hover-2 {
+  background-color: var(--aqua-pearl);
+  border: 1px solid;
+  border-color: var(--malibu);
+  cursor: pointer;
+  height: 64px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 126px;
+  transition: all 0.2s ease;
+  width: 154px;
+}
+
+.tablet-menu-overlay .hover-2:hover {
+  opacity: 1;
+}
+
+.tablet-menu-overlay .hover-3:hover {
+  opacity: 1;
+}
